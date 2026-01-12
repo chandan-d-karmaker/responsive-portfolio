@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+header {
+  background-color: #fff8f3;
+  padding-top: 50px;
+  background: url(../images/developer.png), url(../images/header_bg.png),
+    #fff8f3;
+  background-repeat: no-repeat;
+  background-position: 23px 38px, bottom right;
+}
+
+.logo h2 {
+  color: var(--Dark-01, #181818);
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.color-red {
+  color: #fd6e0a;
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+nav {
+  width: 71%;
+  max-width: 1140px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 51px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a {
+  color: #474747;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.btn {
+  /* width: 150px;
+    height: 65px; */
+  padding: 12px 24px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+
+.banner-content h2 {
+  color: #474747;
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.banner-content h1 {
+  color: #181818;
+  font-family: "Open Sans";
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.banner-content p {
+  width: 90%;
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-bottom: 30px;
+}
+
+.btn-banner {
+  display: flex;
+  gap: 10px;
+}
+
+#banner {
+  margin: 46px 38px 0px 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-img img {
+  width: 500px;
+  height: 676px;
+  vertical-align: middle;
+}
+#about {
+  padding: 130px 230px;
+}
+
+.about-container {
+  /* width: 1140px;
+    height: 550px; */
+  padding: 131px 156px;
+  border-radius: 10px;
+  background: #fff8f3;
+}
+
+.section-heading {
+  max-width: 827px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section-heading h2 {
+  align-self: stretch;
+  margin-bottom: 30px;
+  color: #181818;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-heading p {
+  align-self: stretch;
+  margin-bottom: 30px;
+  color: #757575;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.about-info {
+  display: flex;
+  /* fixed */
+  /* gap: 50px; */
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.info-card {
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info-card p {
+  color: #757575;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+
+.info-card h4 {
+  color: #474747;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+#skills {
+  padding-top: 130px;
+}
+
+.skills-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.skill-box {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-card {
+  max-width: 267px;
+  border-radius: 5px;
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+
+.skill-card img {
+  margin-bottom: 30px;
+  max-width: 44px;
+}
+
+.skill-card h3 {
+  color: #181818;
+  text-align: left;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.skill-card p {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+#resume {
+  padding: 130px;
+}
+
+.resume-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 113px auto 0;
+  display: flex;
+  gap: 24px;
+}
+
+.section-title {
+  color: #474747;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.resume-card {
+  max-width: 511px;
+  margin-right: 47px;
+}
+
+.card-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #474747;
+}
+
+.card-info {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  color: var(--Dark-03, #757575);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.resume-container hr {
+  margin: 30px 0;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+footer {
+  margin-top: 113px;
+  background-color: #fff8f3;
+  padding: 130px 0;
+}
+
+.footer-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+}
+
+.footer-container h2 {
+  color: #181818;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.footer-container p {
+  color: #474747;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-bottom: 30px;
+}
+
+.icons a {
+  margin-right: 24px;
+}
+
+.social {
+  max-width: 562px;
+}
+
+.footer-container form input[type="text"] {
+  width: 461px;
+  height: 64px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  color: #757575;
+  padding: 18px 32px;
+  margin-bottom: 24px;
+}
+
+.footer-container form textarea {
+  max-width: 461px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  color: #757575;
+  padding: 18px 32px;
+  margin-bottom: 24px;
+}
+
+.hide {
+  display: none !important;
+}
+
+@media screen and (max-width: 576px) {
+  #skills {
+    padding-top: 60px;
+  }
+
+  .skill-container,
+  .footer-container,
+  .container {
+    width: 95%;
+  }
+
+  .section-heading h2 {
+    font-size: 30px;
+  }
+
+  .skill-box,
+  .about-info,
+  .footer-container,
+  .resume-container,
+  nav {
+    flex-direction: column;
+  }
+
+  .skill-card {
+    max-width: 100%;
+  }
+
+  #about {
+    padding: 20px;
+  }
+
+  .about-container,
+  .footer-container {
+    padding: 20px;
+  }
+
+  .footer-container form input[type="text"] {
+    width: 100%;
+  }
+
+  .footer-container form textarea {
+    max-width: 100%;
+  }
+  #resume {
+    padding: 60px 20px;
+  }
+
+  .resume-card {
+    margin-right: 10px;
+  }
+
+  .container {
+    gap: 20px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  #banner {
+    padding: 20px 20px 0 20px;
+    /* width: 100%; */
+    flex-direction: column;
+    margin: 0;
+
+  }
+
+  .banner-content h1{
+    font-size: 45px;
+  }
+
+  .banner-img img {
+    width: 100%;
+  }
+
+  .btn-banner {
+    width: 100%;
+  }
+  .banner-content{
+    width: 100%;
+  }
+}
