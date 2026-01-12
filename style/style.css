@@ -48,7 +48,7 @@ nav {
 .menu {
   display: flex;
   list-style: none;
-  gap: 51px;
+  gap: 40px;
   justify-content: center;
   align-items: center;
 }
